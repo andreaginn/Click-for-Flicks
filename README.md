@@ -2,7 +2,7 @@
 
 ## Collaborators
 * [Andrea Ginn](https://github.com/andreaginn)
-* [Wendy Vu](https://github.com/chewytaro)
+* [Wendy Vu](https://github.com/chewytaro) <3
 * Alfredo Rodriguez
 * [Madilyn Bariekman](https://github.com/mcbariekman)
 
