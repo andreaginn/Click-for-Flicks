@@ -1,4 +1,5 @@
-# Random-Movie-Generator
+# ClickForFlicks
+*Recommending titles for you to watch*
 
 ## Collaborators
 * [Andrea Ginn](https://github.com/andreaginn)
