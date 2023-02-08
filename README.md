@@ -5,7 +5,7 @@
 ## Collaborators
 * [Andrea Ginn](https://github.com/andreaginn)
 * [Wendy Vu](https://github.com/chewytaro) <3
-* Alfredo Rodriguez
+* [Alfredo Rodriguez](https://github.com/AlfredRodr)
 * [Madilyn Bariekman](https://github.com/mcbariekman)
 
 ## APIs used
