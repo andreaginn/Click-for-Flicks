@@ -6,23 +6,25 @@ generateBtn.addEventListener("click", function() {
 var IMDBKey = 'k_vvb7ncfd'; 
 var IMDBURL = 'https://imdb-api.com/en/API/Top250Movies/'+IMDBKey;
 var WatchModeKey = 'tRrVcKsz5MC88YyphjWCppQ9y6boLgUcE0STBETT';
-var WatchModeURL = 'https://api.watchmode.com/v1/title/345534/sources/?apiKey=' + WatchModeKey;
+var WatchModeURL = 'https://api.watchmode.com/v1/networks/?apiKey=' + WatchModeKey;
 
     fetch(IMDBURL)
       .then(response => response.json())
       .then(data => {
-        for (let i = 0; i< data.items.length; i++) {   
-        movieNameEl.textContent = data;
-        console.log(data.items[i].length)
+        for (let i = 0; i< data.items.length; i++) {  
+        console.log(data.items[i].title) 
+        movieNameEl.textContent = data.items[i].title;
         }
       });
       
     fetch(WatchModeURL)
       .then(response => response.json())
       .then(data => {
-      console.log(data);
+      for (let i = 0; i< data.length; i++) {
+      console.log(data[i].name);
+      }
     });
-
+    
     //randomization of movies??
     
     
