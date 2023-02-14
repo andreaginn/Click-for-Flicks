@@ -11,7 +11,11 @@
 ## APIs used
 * [IMDb](https://imdb-api.com/api)
 * [Watchmode](https://api.watchmode.com/)
+
+## CSS Frameworks
+* [Foundation](https://get.foundation/index.html)
 * [Google Fonts](https://developers.google.com/fonts/docs/developer_api#APIKey)
+* [Font Awesome](https://fontawesome.com/)
 
 ## Usage
 *tbd*
