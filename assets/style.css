@@ -38,6 +38,10 @@ body {
 
 }
 
+#generate-btn:active{
+    background-color: aquamarine;
+}
+
 #generate-btn {
     font-family: 'Lilita One', cursive;
     font-size: larger;
