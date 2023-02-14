@@ -2,6 +2,7 @@ const generateBtn = document.getElementById("generate-btn");
 const movieNameEl = document.getElementById("movie-name");
 const watchLinkEl = document.getElementById("link");
 const newMovie = document.getElementById("show-another");
+const posterEl = document.getElementById("poster");
 
 
 
@@ -37,9 +38,11 @@ newMovie.style.display = "block";
       fetch(WatchModeURL)
       .then(response => response.json())
       .then(data => {
-        //console.log(data);
+        console.log(data);
         for (let i = 0; i< 5; i++) {
-          watchLinkEl.textContent = data.sources[i].web_url;
+          watchLinkEl.href = data.sources[i].web_url;
+          watchLinkEl.textContent = data.title;
+          posterEl.src = data.poster;
           }
 
       });
