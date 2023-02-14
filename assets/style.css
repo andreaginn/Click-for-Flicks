@@ -41,6 +41,10 @@ body {
 
 }
 
+#generate-btn:active{
+    background-color: aquamarine;
+}
+
 #generate-btn {
     font-family: 'Lilita One', cursive;
     font-size: larger;
@@ -55,3 +59,4 @@ body {
     -webkit-text-stroke: 1px rgb(9, 9, 9);
 
 }
+

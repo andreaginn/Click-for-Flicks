@@ -49,3 +49,8 @@ newMovie.style.display = "block";
     });
     
   });
+
+function change();
+{
+    document.getElementById("generate-btn").value="Close Curtain";
+}
