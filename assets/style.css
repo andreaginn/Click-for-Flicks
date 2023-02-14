@@ -1,8 +1,6 @@
-.show-another {
-    display: hidden;
+* {
+    cursor: pointer;
 }
-
-
 
 h1 {
     font-family: 'Lilita One', cursive;
@@ -30,7 +28,6 @@ body {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-
 }
 
 .generate {
@@ -53,5 +50,4 @@ body {
     margin-left: 0%;
     color: rgb(245, 245, 16);
     -webkit-text-stroke: 1px rgb(9, 9, 9);
-
 }
