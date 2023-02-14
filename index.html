@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,26 +19,27 @@
     
     <title>ClickForFlicks</title>
 </head>
+
 <body>
     <!-- Insert some kind of icon -->
     <div class="header">
-        <h1>ClickforFlicks</h1>
+        <h1><span id="click">Click</span>For<span id="flicks">Flicks</span></h1>
     </div>
     <div class="generate">
-        <button id="generate-btn">Click here to find a movie to watch!</button>
+        <button id="generate-btn">Click me!</button>
     </div>
     <div class="results">
         <!-- div box shows poster -->
         <p id="movie-name"></p>
     </div>
     <div>
-        <button id="show-another" style="display:none">Want to watch something else?</button>
-        </div>
+        <button id="show-another" style="hidden">Want to watch something else?</button>
+    </div>
     <div class="watch">
-        <p id="link"></p>
+        <p id="icons"></p>
     </div>
 
-<script src="./assets/script.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
