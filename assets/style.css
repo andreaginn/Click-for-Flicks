@@ -3,14 +3,9 @@
 }
 
 
-@font-face {
-    font-family: BoldenVan;
-    src: url(BoldenVan.otf);
-}
-
 
 h1 {
-    font-family: BoldenVan;
+    font-family: 'Lilita One', cursive;
     text-align: center;
     font-size: 60px;
     color: rgb(4, 146, 255);
@@ -21,7 +16,7 @@ h1 {
 
 #click,
 #flicks {
-    font-family: BoldenVan;
+    font-family: 'Lilita One', cursive;
     text-align: center;
     font-size: 80px;
     color: rgb(245, 245, 16);
@@ -47,7 +42,7 @@ body {
 }
 
 #generate-btn {
-    font-family: BoldenVan;
+    font-family: 'Lilita One', cursive;
     font-size: larger;
     border-radius: 50%;
     height: 120px;
