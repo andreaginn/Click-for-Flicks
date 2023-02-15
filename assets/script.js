@@ -5,6 +5,7 @@ const newMovie = document.getElementById("show-another");
 const posterEl = document.getElementById("poster");
 const searchEl = document.getElementById("generate-btn1");
 const searchMovieEl = document.querySelector("#searchMovie");
+const plotEl = document.getElementById("plot");
 
 searchEl.addEventListener("click", function () {
 
@@ -32,6 +33,7 @@ searchEl.addEventListener("click", function () {
 
         console.log(data.results[0].id);
         var ID = data.results[0].id;
+      
 
         WatchModeURL = 'https://api.watchmode.com/v1/title/' + ID + '/details/?apiKey=' + WatchModeKey + '&append_to_response=sources';
 
@@ -42,7 +44,9 @@ searchEl.addEventListener("click", function () {
         for (let i = 0; i< 5; i++) {
           watchLinkEl.href = data.sources[i].web_url;
           watchLinkEl.textContent = data.title;
+          plotEl.textContent = data.plot_overview;
           posterEl.src = data.poster;
+
           }
 
         });
@@ -78,7 +82,6 @@ var WatchModeURL = 'https://api.watchmode.com/v1/title/' + IMDBID + '/details/?a
         var randomMovie = movieNames[(Math.floor(Math.random() * data.items.length))];
         console.log(randomMovie.title);
         console.log(randomMovie.id);
-        movieNameEl.textContent = randomMovie.title;
         IMDBID = randomMovie.id;
         WatchModeURL = 'https://api.watchmode.com/v1/title/' + IMDBID + '/details/?apiKey=' + WatchModeKey + '&append_to_response=sources';
 
