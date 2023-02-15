@@ -1,12 +1,12 @@
 # ClickForFlicks
-*Recommending titles for you to watch*
+*Randomly generating flicks for you to watch when you don't know what you want!*
 
 
 ## Collaborators
-* [Andrea Ginn](https://github.com/andreaginn)
-* [Wendy Vu](https://github.com/chewytaro) <3
-* [Alfredo Rodriguez](https://github.com/AlfredRodr)
-* [Madilyn Bariekman](https://github.com/mcbariekman)
+* GUI: [Andrea Ginn](https://github.com/andreaginn)
+* Developement: [Wendy Vu](https://github.com/chewytaro) <3
+* Presentation: [Alfredo Rodriguez](https://github.com/AlfredRodr)
+* UX: [MC Bariekman](https://github.com/mcbariekman)
 
 ## APIs used
 * [IMDb](https://imdb-api.com/api)
@@ -18,6 +18,6 @@
 * [Font Awesome](https://fontawesome.com/)
 
 ## Usage
-*tbd*
+![Live Page](./assets/images/usage.png)
 
 
