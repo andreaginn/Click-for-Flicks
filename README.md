@@ -18,6 +18,6 @@
 * [Font Awesome](https://fontawesome.com/)
 
 ## Usage
-*tbd*
+![Live Page](./assets/images/usage.png)
 
 
