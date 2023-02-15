@@ -56,3 +56,7 @@ body {
     -webkit-text-stroke: 1px rgb(9, 9, 9);
 }
 
+#reload {
+    height: 50px;
+    width:fit;
+}
