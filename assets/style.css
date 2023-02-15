@@ -24,7 +24,7 @@ h1 {
 
 
 body {
-    background-image: url("vintage.jpg");
+    background-image: url("/assets/images/vintage.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
