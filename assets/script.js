@@ -9,8 +9,8 @@ const posterEl = document.getElementById("poster");
 
 generateBtn.addEventListener("click", function() {
 
-//var IMDBKey = 'k_vvb7ncfd'; 
-var IMDBKey = 'k_6i8t9r8e';
+var IMDBKey = 'k_vvb7ncfd'; 
+//var IMDBKey = 'k_6i8t9r8e';
 var IMDBURL = 'https://imdb-api.com/en/API/Top250Movies/'+IMDBKey;
 var WatchModeKey = 'tRrVcKsz5MC88YyphjWCppQ9y6boLgUcE0STBETT';
 var IMDBID = '' ;
