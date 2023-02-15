@@ -46,7 +46,7 @@ body {
     font-family: 'Lilita One', cursive;
     font-size: larger;
     border-radius: 15%;
-    height: 50px;
+    height: auto;
     width: 120px;
     box-shadow: 0px 0px 40px 10px rgb(245, 245, 16);
     border: 5px;
@@ -78,4 +78,13 @@ text-align: center;
 
 #link:hover {
     color: rgb(245, 245, 16)
+}
+
+#shuffle {
+    height: 20px;
+    width: 20px;
+}
+
+#clickme {
+    font-size:20px;
 }
