@@ -6,7 +6,7 @@
 * [Andrea Ginn](https://github.com/andreaginn)
 * [Wendy Vu](https://github.com/chewytaro) <3
 * [Alfredo Rodriguez](https://github.com/AlfredRodr)
-* [Madilyn Bariekman](https://github.com/mcbariekman)
+* [MC Bariekman](https://github.com/mcbariekman)
 
 ## APIs used
 * [IMDb](https://imdb-api.com/api)
@@ -18,6 +18,6 @@
 * [Font Awesome](https://fontawesome.com/)
 
 ## Usage
-*tbd*
+![Live Page](./assets/images/usage.png)
 
 
