@@ -6,8 +6,8 @@ h1 {
     font-family: 'Lilita One', cursive;
     text-align: center;
     font-size: 60px;
-    color: rgb(4, 146, 255);
-    text-shadow: 5px 8px rgb(247, 247, 0);
+    color: #0492ff;
+    text-shadow: 5px 8px #f7f700;
     -webkit-text-stroke: .1px rgb(9, 9, 9);
 
 }
@@ -24,7 +24,7 @@ h1 {
 
 
 body {
-    background-image: url("vintage.jpg");
+    background-image: url("/assets/images/vintage.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
