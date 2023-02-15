@@ -19,7 +19,7 @@ var WatchModeURL = 'https://api.watchmode.com/v1/title/' + IMDBID + '/details/?a
 //var WatchModeURL = 'https://api.watchmode.com/v1/networks/?apiKey=' + WatchModeKey;
 
 
-newMovie.style.display = "block";
+//newMovie.style.display = "block";
 
     fetch(IMDBURL)
       .then(response => response.json())
