@@ -44,7 +44,6 @@ searchEl.addEventListener("click", function () {
         for (let i = 0; i< 5; i++) {
           watchLinkEl.href = data.sources[i].web_url;
           watchLinkEl.textContent = data.title;
-          plotEl.textContent = data.plot_overview;
           posterEl.src = data.poster;
 
           }
