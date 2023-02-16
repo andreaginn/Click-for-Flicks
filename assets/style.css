@@ -1,5 +1,6 @@
 * {
     cursor: pointer;
+    font-family: 'Lilita One', cursive;
 }
 
 h1 {
@@ -40,11 +41,19 @@ body {
 
 }
 
-#generate-btn:active{
+#generate-btn1 {
+background-color: rgb(4, 146, 255);
+}
+
+#generate-btn1:hover {
+    background-color: rgb(245, 245, 16);
+}
+
+#generate-btn:active {
     background-color: aquamarine;
 }
 
-#generate-btn{
+#generate-btn {
     font-family: 'Lilita One', cursive;
     font-size: larger;
     border-radius: 15%;
@@ -59,9 +68,10 @@ body {
     -webkit-text-stroke: 1px rgb(9, 9, 9);
 }
 
-.results {
-display: block;
-text-align: center;
+.results,
+#link {
+    display: block;
+    text-align: center;
 }
 
 #movie-name {
@@ -73,11 +83,23 @@ text-align: center;
 
 #link {
     font-family: 'Lilita One', cursive;
-    color:  rgb(4, 146, 255);
+    color: rgb(4, 146, 255);
     -webkit-text-stroke: 1px rgb(9, 9, 9);
     font-size: 20px;
 }
 
 #link:hover {
     color: rgb(245, 245, 16)
+}
+
+.searchbar {
+    display: block;
+    text-align: center;
+}
+
+#moviesearch {
+    font-family: 'Lilita One', cursive;
+    color: rgb(245, 245, 16);
+    -webkit-text-stroke: 1px rgb(9, 9, 9);
+    font-size: 20px;
 }
