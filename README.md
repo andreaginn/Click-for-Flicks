@@ -1,6 +1,10 @@
 # ClickForFlicks
 *Recommending titles for you to watch*
 
+ClickForFlicks is a random movie generator utilizing the IMDB and WatchMode APIs. The site allows the user to either search for a movie to watch or generate one randonly. With both options, a link is provided that takes the user to a streaming platform on which the movie is available. The site was created using HTML, CSS, and Javascript. 
+
+Live URL: https://andreaginn.github.io/Click-for-Flicks/
+
 
 ## Collaborators
 * [Andrea Ginn](https://github.com/andreaginn)
@@ -18,6 +22,6 @@
 * [Font Awesome](https://fontawesome.com/)
 
 ## Usage
-![Live Page](./assets/images/usage.png)
+![Live Page](./assets/CfFScreenshot.jpg)
 
 
