@@ -60,9 +60,9 @@ searchEl.addEventListener("click", function () {
 
 generateBtn.addEventListener("click", function() {
 
-var IMDBKey = 'k_m4fn1cby'; 
+// IMDBKey = 'k_m4fn1cby'; 
 //spare IMDBKEYS
-//var IMDBKey = 'k_6i8t9r8e';
+var IMDBKey = 'k_6i8t9r8e';
 var IMDBURL = 'https://imdb-api.com/en/API/Top250Movies/'+IMDBKey;
 var WatchModeKey = 'TnmOvDOaSi1WzkXdlWa71NhDrV1qdO25XAGtzOdp';
 var IMDBID = '' ;
