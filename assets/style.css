@@ -63,7 +63,7 @@ background-color: rgb(4, 146, 255);
     border: 5px;
     background-color: rgb(4, 146, 255);
     margin-left: 0%;
-    margin-top: 7%;
+    margin-top: -50px;
     color: rgb(245, 245, 16);
     -webkit-text-stroke: 1px rgb(9, 9, 9);
 }
@@ -71,8 +71,14 @@ background-color: rgb(4, 146, 255);
 .results,
 #link {
     display: block;
+    margin-top: 20px;
     text-align: center;
 }
+
+#poster {
+    margin-top: -85px;
+}
+
 
 #movie-name {
     font-family: 'Lilita One', cursive;
